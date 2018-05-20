@@ -15,6 +15,9 @@
 		888622E120B10A550058A591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888622DF20B10A550058A591 /* LaunchScreen.storyboard */; };
 		888622EE20B110400058A591 /* MathGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888622ED20B110400058A591 /* MathGame.swift */; };
 		888622F120B13F530058A591 /* MathEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888622F020B13F530058A591 /* MathEquation.swift */; };
+		888622F320B162960058A591 /* MathGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F220B162960058A591 /* MathGameScene.sks */; };
+		888622F520B162AF0058A591 /* MainScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F420B162AF0058A591 /* MainScene.sks */; };
+		888622F720B162D90058A591 /* MathLevelScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F620B162D90058A591 /* MathLevelScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		888622E220B10A550058A591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		888622ED20B110400058A591 /* MathGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGame.swift; sourceTree = "<group>"; };
 		888622F020B13F530058A591 /* MathEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathEquation.swift; sourceTree = "<group>"; };
+		888622F220B162960058A591 /* MathGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathGameScene.sks; sourceTree = "<group>"; };
+		888622F420B162AF0058A591 /* MainScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainScene.sks; sourceTree = "<group>"; };
+		888622F620B162D90058A591 /* MathLevelScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathLevelScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 		888622EB20B10F8A0058A591 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				888622F220B162960058A591 /* MathGameScene.sks */,
+				888622F420B162AF0058A591 /* MainScene.sks */,
+				888622F620B162D90058A591 /* MathLevelScene.sks */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -165,8 +174,11 @@
 			files = (
 				888622DC20B10A530058A591 /* Main.storyboard in Resources */,
 				888622DE20B10A550058A591 /* Assets.xcassets in Resources */,
+				888622F320B162960058A591 /* MathGameScene.sks in Resources */,
 				888622E120B10A550058A591 /* LaunchScreen.storyboard in Resources */,
+				888622F720B162D90058A591 /* MathLevelScene.sks in Resources */,
 				888622D520B10A530058A591 /* Actions.sks in Resources */,
+				888622F520B162AF0058A591 /* MainScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
