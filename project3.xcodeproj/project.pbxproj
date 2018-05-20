@@ -15,6 +15,7 @@
 		888622DC20B10A530058A591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888622DA20B10A530058A591 /* Main.storyboard */; };
 		888622DE20B10A550058A591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888622DD20B10A550058A591 /* Assets.xcassets */; };
 		888622E120B10A550058A591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888622DF20B10A550058A591 /* LaunchScreen.storyboard */; };
+		888622EE20B110400058A591 /* MathGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888622ED20B110400058A591 /* MathGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		888622DD20B10A550058A591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		888622E020B10A550058A591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		888622E220B10A550058A591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888622ED20B110400058A591 /* MathGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,9 @@
 		888622CF20B10A530058A591 /* project3 */ = {
 			isa = PBXGroup;
 			children = (
+				888622EC20B10F930058A591 /* SceneController */,
+				888622EB20B10F8A0058A591 /* Scene */,
+				888622EA20B10F7D0058A591 /* Model */,
 				888622D020B10A530058A591 /* AppDelegate.swift */,
 				888622D220B10A530058A591 /* GameScene.sks */,
 				888622D420B10A530058A591 /* Actions.sks */,
@@ -71,6 +76,28 @@
 				888622E220B10A550058A591 /* Info.plist */,
 			);
 			path = project3;
+			sourceTree = "<group>";
+		};
+		888622EA20B10F7D0058A591 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				888622ED20B110400058A591 /* MathGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		888622EB20B10F8A0058A591 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		888622EC20B10F930058A591 /* SceneController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SceneController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				888622D720B10A530058A591 /* GameScene.swift in Sources */,
+				888622EE20B110400058A591 /* MathGame.swift in Sources */,
 				888622D920B10A530058A591 /* GameViewController.swift in Sources */,
 				888622D120B10A530058A591 /* AppDelegate.swift in Sources */,
 			);
