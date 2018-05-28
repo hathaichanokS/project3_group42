@@ -57,13 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8817401B20BBC07200C55FC4 /* MainScene */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MainScene;
-			sourceTree = "<group>";
-		};
 		8817401C20BBC07C00C55FC4 /* MathGameScene */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +113,6 @@
 				8817401F20BBC0A000C55FC4 /* MainGameSceneController */,
 				8817401D20BBC08700C55FC4 /* MathGameSceneController */,
 				8817401C20BBC07C00C55FC4 /* MathGameScene */,
-				8817401B20BBC07200C55FC4 /* MainScene */,
 				888622EB20B10F8A0058A591 /* Scene */,
 				888622EA20B10F7D0058A591 /* Model */,
 				888622D020B10A530058A591 /* AppDelegate.swift */,
