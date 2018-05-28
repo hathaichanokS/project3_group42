@@ -15,7 +15,7 @@ class LaunchGameScene: SKScene {
     override func didMove(to view: SKView) {
         if let scene = MainGameScene(fileNamed: "MainGame") {
             scene.scaleMode = .aspectFill
-            view.presentScene(scene, transition: SKTransition.fade(withDuration: TimeInterval(7)))
+            view.presentScene(scene, transition: SKTransition.fade(withDuration: TimeInterval(10)))
         }
     }
     

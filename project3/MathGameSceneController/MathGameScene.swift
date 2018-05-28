@@ -38,5 +38,9 @@ class MathGameScene: SKScene {
         equationLbl = self.childNode(withName: "equation") as! SKLabelNode
         equationLbl.position = CGPoint(x: 25 , y: 500 )
     }
+    
+    private func loadAnswer(){
+        
+    }
 
 }

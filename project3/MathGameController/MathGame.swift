@@ -33,11 +33,14 @@ class MathGame : SKSpriteNode {
         return equation
     }
     
-    
-    func createAnswerNode(scene : SKScene) -> SKSpriteNode {
-        let answerNode = SKSpriteNode()
+    func createAnswerNode(scene : SKScene) -> [SKSpriteNode] {
+        var answerNode :[SKSpriteNode] = [SKSpriteNode]()
+        let height = scene.frame.size.height
         return answerNode
     } // working on it
+    
+    
+  
     
     
 }

@@ -12,6 +12,7 @@ import GameKit
 struct MathEquation {
     
     var equation = [String]()
+    let randomNumber: GKRandomSource = GKARC4RandomSource()
     
     func createEquation(level:Int) -> [String] {
         var equation = [String]()
@@ -32,21 +33,30 @@ struct MathEquation {
             }
     }
     
+    func createRandAnswer(equation: [String], level: Int) -> [String] {
+        let realAnswer = createAnswer(equation: equation)
+        var fakeAnswer = [String]()
+        let randAnswer: Int = randomNumber.nextInt(upperBound: level*15)
+        while fakeAnswer.count < 2{
+            fakeAnswer.append(String(randAnswer))
+            if fakeAnswer.contains(realAnswer){
+                fakeAnswer.removeLast()
+            }
+        }
+        return fakeAnswer
+    }
+    
     private func createLeftOperand(level: Int) -> String{
-        let randomNumber: GKRandomSource = GKARC4RandomSource()
         let leftOperand: Int = randomNumber.nextInt(upperBound: level*10)
         return String(leftOperand)
     }
     
     private func createRightOperand(level: Int) -> String{
-        let randomNumber: GKRandomSource = GKARC4RandomSource()
         let rightOperand: Int = randomNumber.nextInt(upperBound: level*10)
         return String(rightOperand)
     }
     
-    //scope of operator are  + -
     private func createOperator() -> String{
-        let randomNumber: GKRandomSource = GKARC4RandomSource()
         let chosenOperator: Int = randomNumber.nextInt(upperBound: 2)
         if chosenOperator == 1 {
             return "+"
@@ -55,5 +65,6 @@ struct MathEquation {
             return "-"
         }
     }
+
     
 }
