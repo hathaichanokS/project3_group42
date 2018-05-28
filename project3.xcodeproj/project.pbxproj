@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8817401A20BBC02700C55FC4 /* LaunchGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817401920BBC02700C55FC4 /* LaunchGameScene.swift */; };
+		8817402620BBC3C700C55FC4 /* LaunchGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8817402520BBC3C700C55FC4 /* LaunchGame.sks */; };
+		8817402820BBC5EA00C55FC4 /* MainGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817402720BBC5EA00C55FC4 /* MainGameScene.swift */; };
+		8817402A20BBD01700C55FC4 /* MathGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817402920BBD01700C55FC4 /* MathGameScene.swift */; };
+		8817402C20BBD05600C55FC4 /* MathLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817402B20BBD05600C55FC4 /* MathLevelScene.swift */; };
 		888622D120B10A530058A591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888622D020B10A530058A591 /* AppDelegate.swift */; };
 		888622D520B10A530058A591 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622D420B10A530058A591 /* Actions.sks */; };
 		888622D920B10A530058A591 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888622D820B10A530058A591 /* GameViewController.swift */; };
@@ -15,12 +20,17 @@
 		888622E120B10A550058A591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888622DF20B10A550058A591 /* LaunchScreen.storyboard */; };
 		888622EE20B110400058A591 /* MathGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888622ED20B110400058A591 /* MathGame.swift */; };
 		888622F120B13F530058A591 /* MathEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888622F020B13F530058A591 /* MathEquation.swift */; };
-		888622F320B162960058A591 /* MathGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F220B162960058A591 /* MathGameScene.sks */; };
-		888622F520B162AF0058A591 /* MainScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F420B162AF0058A591 /* MainScene.sks */; };
-		888622F720B162D90058A591 /* MathLevelScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F620B162D90058A591 /* MathLevelScene.sks */; };
+		888622F320B162960058A591 /* MathGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F220B162960058A591 /* MathGame.sks */; };
+		888622F520B162AF0058A591 /* MainGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F420B162AF0058A591 /* MainGame.sks */; };
+		888622F720B162D90058A591 /* MathLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F620B162D90058A591 /* MathLevel.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8817401920BBC02700C55FC4 /* LaunchGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchGameScene.swift; sourceTree = "<group>"; };
+		8817402520BBC3C700C55FC4 /* LaunchGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LaunchGame.sks; sourceTree = "<group>"; };
+		8817402720BBC5EA00C55FC4 /* MainGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameScene.swift; sourceTree = "<group>"; };
+		8817402920BBD01700C55FC4 /* MathGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameScene.swift; sourceTree = "<group>"; };
+		8817402B20BBD05600C55FC4 /* MathLevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLevelScene.swift; sourceTree = "<group>"; };
 		888622CD20B10A530058A591 /* project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888622D020B10A530058A591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		888622D420B10A530058A591 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -31,9 +41,9 @@
 		888622E220B10A550058A591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		888622ED20B110400058A591 /* MathGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGame.swift; sourceTree = "<group>"; };
 		888622F020B13F530058A591 /* MathEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathEquation.swift; sourceTree = "<group>"; };
-		888622F220B162960058A591 /* MathGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathGameScene.sks; sourceTree = "<group>"; };
-		888622F420B162AF0058A591 /* MainScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainScene.sks; sourceTree = "<group>"; };
-		888622F620B162D90058A591 /* MathLevelScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathLevelScene.sks; sourceTree = "<group>"; };
+		888622F220B162960058A591 /* MathGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathGame.sks; sourceTree = "<group>"; };
+		888622F420B162AF0058A591 /* MainGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainGame.sks; sourceTree = "<group>"; };
+		888622F620B162D90058A591 /* MathLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathLevel.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8817401B20BBC07200C55FC4 /* MainScene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainScene;
+			sourceTree = "<group>";
+		};
+		8817401C20BBC07C00C55FC4 /* MathGameScene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MathGameScene;
+			sourceTree = "<group>";
+		};
+		8817401D20BBC08700C55FC4 /* MathGameSceneController */ = {
+			isa = PBXGroup;
+			children = (
+				8817402920BBD01700C55FC4 /* MathGameScene.swift */,
+				8817402B20BBD05600C55FC4 /* MathLevelScene.swift */,
+			);
+			path = MathGameSceneController;
+			sourceTree = "<group>";
+		};
+		8817401F20BBC0A000C55FC4 /* MainGameSceneController */ = {
+			isa = PBXGroup;
+			children = (
+				8817402720BBC5EA00C55FC4 /* MainGameScene.swift */,
+				8817401920BBC02700C55FC4 /* LaunchGameScene.swift */,
+			);
+			path = MainGameSceneController;
+			sourceTree = "<group>";
+		};
+		8817402220BBC0D600C55FC4 /* MathGameController */ = {
+			isa = PBXGroup;
+			children = (
+				888622ED20B110400058A591 /* MathGame.swift */,
+			);
+			path = MathGameController;
+			sourceTree = "<group>";
+		};
 		888622C420B10A530058A591 = {
 			isa = PBXGroup;
 			children = (
@@ -66,8 +116,11 @@
 		888622CF20B10A530058A591 /* project3 */ = {
 			isa = PBXGroup;
 			children = (
-				888622EF20B13F320058A591 /* Controller */,
-				888622EC20B10F930058A591 /* SceneController */,
+				8817402220BBC0D600C55FC4 /* MathGameController */,
+				8817401F20BBC0A000C55FC4 /* MainGameSceneController */,
+				8817401D20BBC08700C55FC4 /* MathGameSceneController */,
+				8817401C20BBC07C00C55FC4 /* MathGameScene */,
+				8817401B20BBC07200C55FC4 /* MainScene */,
 				888622EB20B10F8A0058A591 /* Scene */,
 				888622EA20B10F7D0058A591 /* Model */,
 				888622D020B10A530058A591 /* AppDelegate.swift */,
@@ -92,26 +145,12 @@
 		888622EB20B10F8A0058A591 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				888622F220B162960058A591 /* MathGameScene.sks */,
-				888622F420B162AF0058A591 /* MainScene.sks */,
-				888622F620B162D90058A591 /* MathLevelScene.sks */,
+				888622F220B162960058A591 /* MathGame.sks */,
+				888622F420B162AF0058A591 /* MainGame.sks */,
+				888622F620B162D90058A591 /* MathLevel.sks */,
+				8817402520BBC3C700C55FC4 /* LaunchGame.sks */,
 			);
 			path = Scene;
-			sourceTree = "<group>";
-		};
-		888622EC20B10F930058A591 /* SceneController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SceneController;
-			sourceTree = "<group>";
-		};
-		888622EF20B13F320058A591 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				888622ED20B110400058A591 /* MathGame.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,11 +213,12 @@
 			files = (
 				888622DC20B10A530058A591 /* Main.storyboard in Resources */,
 				888622DE20B10A550058A591 /* Assets.xcassets in Resources */,
-				888622F320B162960058A591 /* MathGameScene.sks in Resources */,
+				8817402620BBC3C700C55FC4 /* LaunchGame.sks in Resources */,
+				888622F320B162960058A591 /* MathGame.sks in Resources */,
 				888622E120B10A550058A591 /* LaunchScreen.storyboard in Resources */,
-				888622F720B162D90058A591 /* MathLevelScene.sks in Resources */,
+				888622F720B162D90058A591 /* MathLevel.sks in Resources */,
 				888622D520B10A530058A591 /* Actions.sks in Resources */,
-				888622F520B162AF0058A591 /* MainScene.sks in Resources */,
+				888622F520B162AF0058A591 /* MainGame.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,10 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8817402A20BBD01700C55FC4 /* MathGameScene.swift in Sources */,
 				888622EE20B110400058A591 /* MathGame.swift in Sources */,
 				888622F120B13F530058A591 /* MathEquation.swift in Sources */,
 				888622D920B10A530058A591 /* GameViewController.swift in Sources */,
+				8817402820BBC5EA00C55FC4 /* MainGameScene.swift in Sources */,
+				8817401A20BBC02700C55FC4 /* LaunchGameScene.swift in Sources */,
 				888622D120B10A530058A591 /* AppDelegate.swift in Sources */,
+				8817402C20BBD05600C55FC4 /* MathLevelScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
