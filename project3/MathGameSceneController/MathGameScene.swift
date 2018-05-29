@@ -12,8 +12,8 @@ import SpriteKit
 
 class MathGameScene: SKScene {
     private var mathEquation = MathEquation()
-    private var equation = MathGame()
-    private let equationTime = 3
+    private var mathGame = MathGame()
+    private let equationTime = 10
     private var equationLbl = SKLabelNode()
     
     override func didMove(to view: SKView) {
@@ -24,6 +24,19 @@ class MathGameScene: SKScene {
     
     private func initializeGame() {
         Timer.scheduledTimer(timeInterval: TimeInterval(equationTime), target: self, selector: #selector(MathGameScene.newEquation), userInfo: nil, repeats: true)
+        
+         Timer.scheduledTimer(timeInterval: TimeInterval(equationTime), target: self, selector: #selector(MathGameScene.loadBalloon), userInfo: nil, repeats: true)
+    }
+    
+    @objc private func loadBalloon() {
+        let balloonNode = mathGame.createBalloonNode(scene: self.scene!)
+        for i in 0..<balloonNode.count{
+            self.scene?.addChild(balloonNode[i]!)
+        }
+       /* let answerLbl = mathGame.createAnswerLabel(scene: self.scene!, equation:  mathEquation.equation)
+        for i in answerLbl{
+            self.scene?.addChild(i!)
+        }*/
     }
     
     

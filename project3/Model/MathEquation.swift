@@ -36,8 +36,8 @@ struct MathEquation {
     func createRandAnswer(equation: [String], level: Int) -> [String] {
         let realAnswer = createAnswer(equation: equation)
         var fakeAnswer = [String]()
-        let randAnswer: Int = randomNumber.nextInt(upperBound: level*15)
-        while fakeAnswer.count < 2{
+        while fakeAnswer.count < 3{
+            let randAnswer: Int = randomNumber.nextInt(upperBound: level*10)
             fakeAnswer.append(String(randAnswer))
             if fakeAnswer.contains(realAnswer){
                 fakeAnswer.removeLast()
@@ -45,6 +45,7 @@ struct MathEquation {
         }
         return fakeAnswer
     }
+
     
     private func createLeftOperand(level: Int) -> String{
         let leftOperand: Int = randomNumber.nextInt(upperBound: level*10)
