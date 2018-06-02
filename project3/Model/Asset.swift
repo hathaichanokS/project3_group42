@@ -11,7 +11,6 @@ import Foundation
 
 struct Asset{
     var balloon = "balloon"
-    
 }
 
 

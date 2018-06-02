@@ -16,13 +16,18 @@ struct MathEquation {
     
     func createEquation(level:Int) -> [String] {
         var equation = [String]()
-        equation.append(createLeftOperand(level: level))
-        equation.append(createOperator())
-        equation.append(createRightOperand(level: level))
+        let symbol = createOperator()
+        var operands = createOperand(level:level)
+        if Int(operands.first!)! < Int(operands.last!)! && symbol == "-" {
+            operands = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: operands) as! [String]
+        }
+        equation.append(operands.first!)
+        equation.append(symbol)
+        equation.append(operands.last!)
         return equation
     }
     
-    func createAnswer(equation: [String]) -> String {
+    private func createAnswer(equation: [String]) -> String {
         switch equation[1] {
             case "-":
                 return String(Int(equation[0])! - Int(equation[2])!)
@@ -34,18 +39,27 @@ struct MathEquation {
     }
     
     func createRandAnswer(equation: [String], level: Int) -> [String] {
+        var randAnswer = [String]()
         let realAnswer = createAnswer(equation: equation)
-        var fakeAnswer = [String]()
-        while fakeAnswer.count < 3{
-            let randAnswer: Int = randomNumber.nextInt(upperBound: level*10)
-            fakeAnswer.append(String(randAnswer))
-            if fakeAnswer.contains(realAnswer){
-                fakeAnswer.removeLast()
-            }
+        while randAnswer.count < 3{
+            let rand: Int = randomNumber.nextInt(upperBound: 10)
+            randAnswer.append(String(rand))
         }
-        return fakeAnswer
+        randAnswer.append(realAnswer)
+        var shuffledAnswer = [String]()
+        shuffledAnswer  = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: randAnswer) as! [String]
+        return shuffledAnswer
     }
-
+    
+    private func createOperand(level: Int) -> [String] {
+        var operands = [String]()
+        while operands.count < 2 {
+            let operand: Int = randomNumber.nextInt(upperBound: level*10)
+            operands.append(String(operand))
+        }
+        
+        return operands
+    }
     
     private func createLeftOperand(level: Int) -> String{
         let leftOperand: Int = randomNumber.nextInt(upperBound: level*10)
