@@ -12,6 +12,7 @@
 		8817402820BBC5EA00C55FC4 /* MainGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817402720BBC5EA00C55FC4 /* MainGameScene.swift */; };
 		8817402A20BBD01700C55FC4 /* MathGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817402920BBD01700C55FC4 /* MathGameScene.swift */; };
 		8817402C20BBD05600C55FC4 /* MathLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817402B20BBD05600C55FC4 /* MathLevelScene.swift */; };
+		881DF04D20C2D57D00EA8A68 /* Asparagus Sprouts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 881DF04A20C2D57C00EA8A68 /* Asparagus Sprouts.ttf */; };
 		888622D120B10A530058A591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888622D020B10A530058A591 /* AppDelegate.swift */; };
 		888622D520B10A530058A591 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622D420B10A530058A591 /* Actions.sks */; };
 		888622D920B10A530058A591 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888622D820B10A530058A591 /* GameViewController.swift */; };
@@ -34,6 +35,7 @@
 		8817402720BBC5EA00C55FC4 /* MainGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameScene.swift; sourceTree = "<group>"; };
 		8817402920BBD01700C55FC4 /* MathGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameScene.swift; sourceTree = "<group>"; };
 		8817402B20BBD05600C55FC4 /* MathLevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLevelScene.swift; sourceTree = "<group>"; };
+		881DF04A20C2D57C00EA8A68 /* Asparagus Sprouts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asparagus Sprouts.ttf"; sourceTree = "<group>"; };
 		888622CD20B10A530058A591 /* project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888622D020B10A530058A591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		888622D420B10A530058A591 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				888622DD20B10A550058A591 /* Assets.xcassets */,
 				888622DF20B10A550058A591 /* LaunchScreen.storyboard */,
 				888622E220B10A550058A591 /* Info.plist */,
+				881DF04A20C2D57C00EA8A68 /* Asparagus Sprouts.ttf */,
 			);
 			path = project3;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				888622DE20B10A550058A591 /* Assets.xcassets in Resources */,
 				8817402620BBC3C700C55FC4 /* LaunchGame.sks in Resources */,
 				888622F320B162960058A591 /* MathGame.sks in Resources */,
+				881DF04D20C2D57D00EA8A68 /* Asparagus Sprouts.ttf in Resources */,
 				88B8B0F420C2601D00962654 /* MathGameOver.sks in Resources */,
 				888622E120B10A550058A591 /* LaunchScreen.storyboard in Resources */,
 				888622F720B162D90058A591 /* MathLevel.sks in Resources */,

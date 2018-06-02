@@ -11,17 +11,19 @@ import GameKit
 class MathGame : SKSpriteNode {
     
     func createBalloonNode(scene : SKScene) -> [SKSpriteNode?] {
-        var posx = scene.size.width/2 * -1  + 700
+        var posx = scene.size.width/2 * -1  + 500
         posx.round(.up)
         var balloonNode = [SKSpriteNode?](repeating: nil, count: 4)
-        var size = 0
-        while size < 4 {
-            balloonNode[size] = SKSpriteNode(imageNamed: Asset.balloon+String(size))
-            balloonNode[size]?.zPosition = 2
-            balloonNode[size]?.position.y = 0
-            balloonNode[size]?.anchorPoint = CGPoint(x: 0.5, y: 0.5)
-            balloonNode[size]?.position.x = posx + CGFloat(size*450)
-            size += 1
+        var count = 0
+        while count < 4 {
+            balloonNode[count] = SKSpriteNode(imageNamed: Asset.balloon+String(count))
+            balloonNode[count]?.name = "balloon" + String(count)
+            balloonNode[count]?.setScale(1.5)
+            balloonNode[count]?.zPosition = 2
+            balloonNode[count]?.position.y = 0
+            balloonNode[count]?.anchorPoint = CGPoint(x: 0.5, y: 0.5)
+            balloonNode[count]?.position.x = posx + CGFloat(count*600)
+            count += 1
         }
         return balloonNode
     }
@@ -29,6 +31,7 @@ class MathGame : SKSpriteNode {
     func createPlayerNode(status: String, scene : SKScene) -> SKSpriteNode {
         var player = SKSpriteNode()
         player = SKSpriteNode(imageNamed: Asset.player[status]!)
+        player.name = status
         player.zPosition = 2
         player.setScale(0.3)
         player.position.y = -600

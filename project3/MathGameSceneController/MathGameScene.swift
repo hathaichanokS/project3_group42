@@ -21,16 +21,16 @@ class MathGameScene: SKScene {
     private var indexAnswer = 0
     private var score = 0
     
-    private var gameTime = 15
+    private var gameTime = 30
     private var gameTimer = Timer()
     private var gameTimeLbl = SKLabelNode()
-    private var playerStatus = "happyPlayer"
+    private var playerInitialStatus = "happyPlayer"
     
     override func didMove(to view: SKView) {
         initializeGame()
         loadLabel()
         loadBalloon()
-        addPlayer(status: "sadPlayer")
+        addPlayer(status: playerInitialStatus)
         newEquation()
     }
     
@@ -47,40 +47,37 @@ class MathGameScene: SKScene {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let indx = String(indexAnswer)
         for touch in touches {
             let node = self.atPoint(touch.location(in: self))
             if node.name != "BGL1" {
-                if node.name == "answerLb" + String(indexAnswer+1) {
+                if node.name == "balloon" + indx || node.name == "answerLb" + indx {
                     score+=1
                     scoreLbl.text = String(score)
                     answerLbls[indexAnswer].alpha = 0.0
                     //change player
-                    if let childNode = childNode(withName: "sadPlayer"){
+                    if let childNode = childNode(withName: "sadPlayer")  {
                         childNode.removeFromParent()
                         addPlayer(status: "happyPlayer")
                     }
-                    if let childNode = childNode(withName: "confusedPlayer"){
+                    else if let childNode = childNode(withName: "confusedPlayer"){
                         childNode.removeFromParent()
                         addPlayer(status: "happyPlayer")
                     }
-                    
-
-                
                 }
-                else {
+            
+                else  {
                     //change player
                     if let childNode = childNode(withName: "happyPlayer"){
                         childNode.removeFromParent()
                         addPlayer(status: "confusedPlayer")
                     }
-                    if let childNode = childNode(withName: "confusedPlayer"){
+                    else if let childNode = childNode(withName: "confusedPlayer"){
                         childNode.removeFromParent()
                         addPlayer(status: "sadPlayer")
                     }
-
                 }
             }
-            
         }//end loop
     }
     
@@ -121,27 +118,34 @@ class MathGameScene: SKScene {
     
     private func loadLabel() {
         equationLbl = self.childNode(withName: "equation") as! SKLabelNode
-        equationLbl.position = CGPoint(x: 25 , y: 500 )
-        var posx = (self.scene?.size.width)!/2 * -1  + 700
+        equationLbl.position = CGPoint(x: 0 , y: 550 )
+        equationLbl.fontSize = 270
+        equationLbl.fontName = Asset.font
+        var posx = (self.scene?.size.width)!/2 * -1  + 500
         posx.round(.up)
         var num = 0
         let answerLbl =  SKLabelNode()
         while num < 4 {
             answerLbls.append(answerLbl)
-            answerLbls[num] = self.childNode(withName: "answerLb"+String(num+1)) as! SKLabelNode
+            answerLbls[num] = self.childNode(withName: "answerLb"+String(num)) as! SKLabelNode
             answerLbls[num].zPosition = 5
-            answerLbls[num].position.y = 50
-            answerLbls[num].position.x = posx + CGFloat(num*450)
-            answerLbls[num].fontSize = 170
+            answerLbls[num].position.y = 75
+            answerLbls[num].position.x = posx + CGFloat(num*600)
+            answerLbls[num].fontSize = 270
+            answerLbls[num].fontName = Asset.font
             num+=1
         }
         scoreLbl = self.childNode(withName: "mathScore") as! SKLabelNode
         scoreLbl.position = CGPoint(x: (self.scene?.size.width)! / -2 + 300 , y: (self.scene?.size.height)! / 2 - 260 )
+        scoreLbl.fontName = Asset.font
+        scoreLbl.fontSize = 200
         scoreLbl.text = "0"
        
         gameTimeLbl = self.childNode(withName: "mathTimer") as! SKLabelNode
         gameTimeLbl.position = CGPoint(x: 1070 , y: 730 )
         gameTimeLbl.text = String(gameTime)
+        gameTimeLbl.fontSize = 200
+        gameTimeLbl.fontName = Asset.font
     }
 
 }//end class

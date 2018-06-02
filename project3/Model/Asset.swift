@@ -12,6 +12,7 @@ import Foundation
 struct Asset{
     static var balloon = "balloon"
     static var player = ["sadPlayer":"sadPlayer", "confusedPlayer":"confusedPlayer", "happyPlayer":"happyPlayer"]
+    static var font = "Asparagus Sprouts"
 }
 
 
