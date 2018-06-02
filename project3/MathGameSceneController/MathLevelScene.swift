@@ -13,16 +13,17 @@ import SpriteKit
 class MathLevelScene: SKScene {
     
     private var presentTimer = Timer()
-    private var nextSceneTime: Int = 4
+    private var nextSceneTime: Int = 2
     
     override func didMove(to view: SKView) {
         initializeGame()
     }
     
     private func initializeGame() {
-        presentTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(MathLevelScene.countDown), userInfo: nil, repeats: true)
+        presentTimer = Timer.scheduledTimer(timeInterval: 0.3, target: self, selector: #selector(MathLevelScene.countDown), userInfo: nil, repeats: true)
     }
     
+    //count down for next scene
     @objc func countDown() {
         nextSceneTime-=1
         if nextSceneTime == 0 {

@@ -11,15 +11,14 @@ import GameKit
 
 struct MathEquation {
     
-    var equation = [String]()
     let randomNumber: GKRandomSource = GKARC4RandomSource()
     
     func createEquation(level:Int) -> [String] {
         var equation = [String]()
-        let symbol = createOperator()
-        var operands = createOperand(level:level)
+        var symbol = createOperator()
+        let operands = createOperand(level:level)
         if Int(operands.first!)! < Int(operands.last!)! && symbol == "-" {
-            operands = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: operands) as! [String]
+            symbol = "+"
         }
         equation.append(operands.first!)
         equation.append(symbol)
@@ -43,12 +42,22 @@ struct MathEquation {
         let realAnswer = createAnswer(equation: equation)
         while randAnswer.count < 3{
             let rand: Int = randomNumber.nextInt(upperBound: 10)
-            randAnswer.append(String(rand))
+            if realAnswer != String(rand){
+                randAnswer.append(String(rand))
+            }
         }
         randAnswer.append(realAnswer)
         var shuffledAnswer = [String]()
         shuffledAnswer  = GKRandomSource.sharedRandom().arrayByShufflingObjects(in: randAnswer) as! [String]
         return shuffledAnswer
+    }
+    
+    func indexAnswer(equation: [String], answer: [String]) -> Int {
+        let realAnswer = createAnswer(equation: equation)
+        if let i = answer.index(of: realAnswer) {
+            return i
+        }
+        return 0
     }
     
     private func createOperand(level: Int) -> [String] {

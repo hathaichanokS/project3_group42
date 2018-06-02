@@ -23,6 +23,8 @@
 		888622F320B162960058A591 /* MathGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F220B162960058A591 /* MathGame.sks */; };
 		888622F520B162AF0058A591 /* MainGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F420B162AF0058A591 /* MainGame.sks */; };
 		888622F720B162D90058A591 /* MathLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F620B162D90058A591 /* MathLevel.sks */; };
+		88B8B0F420C2601D00962654 /* MathGameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B0F320C2601D00962654 /* MathGameOver.sks */; };
+		88B8B0F620C2644C00962654 /* MathGameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B0F520C2644C00962654 /* MathGameOver.swift */; };
 		88F1C24720BC2EE700C934D2 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F1C24620BC2EE700C934D2 /* Asset.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		888622F220B162960058A591 /* MathGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathGame.sks; sourceTree = "<group>"; };
 		888622F420B162AF0058A591 /* MainGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainGame.sks; sourceTree = "<group>"; };
 		888622F620B162D90058A591 /* MathLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathLevel.sks; sourceTree = "<group>"; };
+		88B8B0F320C2601D00962654 /* MathGameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathGameOver.sks; sourceTree = "<group>"; };
+		88B8B0F520C2644C00962654 /* MathGameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameOver.swift; sourceTree = "<group>"; };
 		88F1C24620BC2EE700C934D2 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +68,7 @@
 			children = (
 				8817402920BBD01700C55FC4 /* MathGameScene.swift */,
 				8817402B20BBD05600C55FC4 /* MathLevelScene.swift */,
+				88B8B0F520C2644C00962654 /* MathGameOver.swift */,
 			);
 			path = MathGameSceneController;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 				888622F420B162AF0058A591 /* MainGame.sks */,
 				888622F620B162D90058A591 /* MathLevel.sks */,
 				8817402520BBC3C700C55FC4 /* LaunchGame.sks */,
+				88B8B0F320C2601D00962654 /* MathGameOver.sks */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 				888622DE20B10A550058A591 /* Assets.xcassets in Resources */,
 				8817402620BBC3C700C55FC4 /* LaunchGame.sks in Resources */,
 				888622F320B162960058A591 /* MathGame.sks in Resources */,
+				88B8B0F420C2601D00962654 /* MathGameOver.sks in Resources */,
 				888622E120B10A550058A591 /* LaunchScreen.storyboard in Resources */,
 				888622F720B162D90058A591 /* MathLevel.sks in Resources */,
 				888622D520B10A530058A591 /* Actions.sks in Resources */,
@@ -222,6 +229,7 @@
 				888622F120B13F530058A591 /* MathEquation.swift in Sources */,
 				888622D920B10A530058A591 /* GameViewController.swift in Sources */,
 				8817402820BBC5EA00C55FC4 /* MainGameScene.swift in Sources */,
+				88B8B0F620C2644C00962654 /* MathGameOver.swift in Sources */,
 				8817401A20BBC02700C55FC4 /* LaunchGameScene.swift in Sources */,
 				88F1C24720BC2EE700C934D2 /* Asset.swift in Sources */,
 				888622D120B10A530058A591 /* AppDelegate.swift in Sources */,

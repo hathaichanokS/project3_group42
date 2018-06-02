@@ -10,16 +10,14 @@ import Foundation
 
 
 struct Asset{
-    var balloon = "balloon"
+    static var balloon = "balloon"
+    static var player = ["sadPlayer":"sadPlayer", "confusedPlayer":"confusedPlayer", "happyPlayer":"happyPlayer"]
 }
 
 
-struct MathSetting{
+
+struct MathSetting {
     
 }
 
-struct Font{
-    var eqFontSize = 150
-   // var ansFontSize : CGFloat = 100
-    var fontName = ""
-}
+
