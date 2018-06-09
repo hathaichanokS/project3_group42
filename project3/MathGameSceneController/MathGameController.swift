@@ -1,14 +1,14 @@
 //
-//  MathGame.swift
+//  MathGameController.swift
 //  project3
 //
-//  Created by Hathaichanok Sreecharoen on 20/5/18.
+//  Created by Hathaichanok Sreecharoen on 9/6/18.
 //  Copyright © 2018 Hathaichanok Sreecharoen. All rights reserved.
 //
 
 import GameKit
 
-class MathGame : SKSpriteNode {
+class MathGameController : SKSpriteNode {
     
     func createBalloonNode(scene : SKScene) -> [SKSpriteNode?] {
         var posx = scene.size.width/2 * -1  + 500
@@ -41,6 +41,4 @@ class MathGame : SKSpriteNode {
     
     
 }
-
-
 

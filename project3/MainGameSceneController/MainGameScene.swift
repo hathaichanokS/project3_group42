@@ -31,6 +31,20 @@ class MainGameScene: SKScene {
                     view!.presentScene(scene, transition: SKTransition.doorway(withDuration:TimeInterval(0.03)))
                 }
             }
+            
+            if atPoint(location).name == "mathPop" {
+                if let scene = MathLevelScene(fileNamed: "MathLevel") {
+                    scene.scaleMode = .aspectFill
+                    view!.presentScene(scene, transition: SKTransition.doorway(withDuration:TimeInterval(0.03)))
+                }
+            }
+            
+            if atPoint(location).name == "spaceSpell" {
+                if let scene = SpaceSpellLevelScene(fileNamed: "SpaceSpellLevel") {
+                    scene.scaleMode = .aspectFill
+                    view!.presentScene(scene, transition: SKTransition.doorway(withDuration:TimeInterval(0.03)))
+                }
+            }
         }//end loop
     }//end function
     

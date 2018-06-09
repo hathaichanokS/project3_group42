@@ -5,7 +5,6 @@
 //  Created by Hathaichanok Sreecharoen on 20/5/18.
 //  Copyright © 2018 Hathaichanok Sreecharoen. All rights reserved.
 //
-
 import GameKit
 
 
@@ -28,13 +27,13 @@ struct MathEquation {
     
     private func createAnswer(equation: [String]) -> String {
         switch equation[1] {
-            case "-":
-                return String(Int(equation[0])! - Int(equation[2])!)
-            case "+":
-                return String(Int(equation[0])! + Int(equation[2])!)
-            default :
-                return "0"
-            }
+        case "-":
+            return String(Int(equation[0])! - Int(equation[2])!)
+        case "+":
+            return String(Int(equation[0])! + Int(equation[2])!)
+        default :
+            return "0"
+        }
     }
     
     func createRandAnswer(equation: [String], level: Int) -> [String] {
@@ -89,6 +88,6 @@ struct MathEquation {
             return "-"
         }
     }
-
+    
     
 }

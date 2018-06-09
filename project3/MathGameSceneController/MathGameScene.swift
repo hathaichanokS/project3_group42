@@ -12,11 +12,12 @@ import SpriteKit
 
 class MathGameScene: SKScene {
     private let mathEquation = MathEquation()
-    private let mathGame = MathGame()
+    private let mathGame = MathGameController()
     private let equationTime = 5
     private var equationLbl = SKLabelNode()
     private var level = 0
     private var answerLbls = [SKLabelNode]()
+    
     private var scoreLbl = SKLabelNode()
     private var indexAnswer = 0
     private var score = 0
