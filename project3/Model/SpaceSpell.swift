@@ -49,9 +49,6 @@ struct SpaceSpell {
         }
     }
     
-    
-    
-    
     func shuffleArray(arr:[String]) -> [String] {
         var data:[String] = arr
         for i in 1..<arr.count {
@@ -73,11 +70,6 @@ struct SpaceSpell {
         }
         return data
     }
-    
-    
-    
-    
-    
     
     init(level : Int) {
         if level == 1 {
