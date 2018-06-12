@@ -8,46 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		8817401A20BBC02700C55FC4 /* LaunchGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817401920BBC02700C55FC4 /* LaunchGameScene.swift */; };
-		8817402620BBC3C700C55FC4 /* LaunchGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8817402520BBC3C700C55FC4 /* LaunchGame.sks */; };
 		8817402820BBC5EA00C55FC4 /* MainGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817402720BBC5EA00C55FC4 /* MainGameScene.swift */; };
 		8817402A20BBD01700C55FC4 /* MathGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817402920BBD01700C55FC4 /* MathGameScene.swift */; };
 		8817402C20BBD05600C55FC4 /* MathLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817402B20BBD05600C55FC4 /* MathLevelScene.swift */; };
 		881DF04D20C2D57D00EA8A68 /* Asparagus Sprouts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 881DF04A20C2D57C00EA8A68 /* Asparagus Sprouts.ttf */; };
 		882133D420C600140090F2CE /* MathEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882133D320C600140090F2CE /* MathEquation.swift */; };
 		882133D620C600250090F2CE /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882133D520C600250090F2CE /* Asset.swift */; };
-		882133D920C6008A0090F2CE /* SSGameL1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882133D820C6008A0090F2CE /* SSGameL1ViewController.swift */; };
 		888622D120B10A530058A591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888622D020B10A530058A591 /* AppDelegate.swift */; };
 		888622D520B10A530058A591 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622D420B10A530058A591 /* Actions.sks */; };
 		888622D920B10A530058A591 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888622D820B10A530058A591 /* GameViewController.swift */; };
 		888622DC20B10A530058A591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888622DA20B10A530058A591 /* Main.storyboard */; };
 		888622DE20B10A550058A591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888622DD20B10A550058A591 /* Assets.xcassets */; };
 		888622E120B10A550058A591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888622DF20B10A550058A591 /* LaunchScreen.storyboard */; };
-		888622F320B162960058A591 /* MathGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F220B162960058A591 /* MathGame.sks */; };
-		888622F520B162AF0058A591 /* MainGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F420B162AF0058A591 /* MainGame.sks */; };
-		888622F720B162D90058A591 /* MathLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = 888622F620B162D90058A591 /* MathLevel.sks */; };
-		88B8B0F420C2601D00962654 /* MathGameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88B8B0F320C2601D00962654 /* MathGameOver.sks */; };
 		88B8B0F620C2644C00962654 /* MathGameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B8B0F520C2644C00962654 /* MathGameOverScene.swift */; };
+		88DE3DB520CF846300591A56 /* LaunchGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DE3DB020CF846300591A56 /* LaunchGame.sks */; };
+		88DE3DB620CF846300591A56 /* MainGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DE3DB120CF846300591A56 /* MainGame.sks */; };
+		88DE3DB720CF846300591A56 /* MathGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DE3DB220CF846300591A56 /* MathGame.sks */; };
+		88DE3DB820CF846300591A56 /* MathGameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DE3DB320CF846300591A56 /* MathGameOver.sks */; };
+		88DE3DB920CF846300591A56 /* MathLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DE3DB420CF846300591A56 /* MathLevel.sks */; };
+		88DE3DBD20CF852900591A56 /* SpaceSpellGameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DE3DBC20CF852900591A56 /* SpaceSpellGameOver.sks */; };
+		88DE3DBF20CF857100591A56 /* SpaceGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DE3DBE20CF857100591A56 /* SpaceGame.sks */; };
+		88DE3DC120CF866900591A56 /* SpaceSpellLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DE3DC020CF866900591A56 /* SpaceSpellLevel.sks */; };
 		88EA13AC20CB5E83004784F1 /* SpaceSpellScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA13AB20CB5E83004784F1 /* SpaceSpellScene.swift */; };
 		88EA140720CB6216004784F1 /* SpaceSpell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA140620CB6216004784F1 /* SpaceSpell.swift */; };
 		88EA143E20CB6724004784F1 /* SpaceSpellLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA143D20CB6724004784F1 /* SpaceSpellLevelScene.swift */; };
-		88EA144820CB8675004784F1 /* SpaceSpellLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88EA144720CB8675004784F1 /* SpaceSpellLevel.sks */; };
-		88EA144A20CB8B2B004784F1 /* SpaceGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88EA144920CB8B2B004784F1 /* SpaceGame.sks */; };
 		88EA144E20CB92C1004784F1 /* SpaceSpellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA144D20CB92C1004784F1 /* SpaceSpellController.swift */; };
 		88EA145020CBB9FB004784F1 /* MathGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA144F20CBB9FB004784F1 /* MathGameController.swift */; };
 		88EA145220CBBA3A004784F1 /* SpaceSpellGameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA145120CBBA3A004784F1 /* SpaceSpellGameOverScene.swift */; };
-		88EA145420CBBAE1004784F1 /* SpaceSpellGameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88EA145320CBBAE1004784F1 /* SpaceSpellGameOver.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8817401920BBC02700C55FC4 /* LaunchGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchGameScene.swift; sourceTree = "<group>"; };
-		8817402520BBC3C700C55FC4 /* LaunchGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LaunchGame.sks; sourceTree = "<group>"; };
 		8817402720BBC5EA00C55FC4 /* MainGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameScene.swift; sourceTree = "<group>"; };
 		8817402920BBD01700C55FC4 /* MathGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameScene.swift; sourceTree = "<group>"; };
 		8817402B20BBD05600C55FC4 /* MathLevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLevelScene.swift; sourceTree = "<group>"; };
 		881DF04A20C2D57C00EA8A68 /* Asparagus Sprouts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asparagus Sprouts.ttf"; sourceTree = "<group>"; };
 		882133D320C600140090F2CE /* MathEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathEquation.swift; sourceTree = "<group>"; };
 		882133D520C600250090F2CE /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
-		882133D820C6008A0090F2CE /* SSGameL1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSGameL1ViewController.swift; sourceTree = "<group>"; };
 		888622CD20B10A530058A591 /* project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888622D020B10A530058A591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		888622D420B10A530058A591 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -56,20 +53,21 @@
 		888622DD20B10A550058A591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		888622E020B10A550058A591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		888622E220B10A550058A591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		888622F220B162960058A591 /* MathGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathGame.sks; sourceTree = "<group>"; };
-		888622F420B162AF0058A591 /* MainGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainGame.sks; sourceTree = "<group>"; };
-		888622F620B162D90058A591 /* MathLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathLevel.sks; sourceTree = "<group>"; };
-		88B8B0F320C2601D00962654 /* MathGameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathGameOver.sks; sourceTree = "<group>"; };
 		88B8B0F520C2644C00962654 /* MathGameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameOverScene.swift; sourceTree = "<group>"; };
+		88DE3DB020CF846300591A56 /* LaunchGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LaunchGame.sks; sourceTree = "<group>"; };
+		88DE3DB120CF846300591A56 /* MainGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainGame.sks; sourceTree = "<group>"; };
+		88DE3DB220CF846300591A56 /* MathGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathGame.sks; sourceTree = "<group>"; };
+		88DE3DB320CF846300591A56 /* MathGameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathGameOver.sks; sourceTree = "<group>"; };
+		88DE3DB420CF846300591A56 /* MathLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MathLevel.sks; sourceTree = "<group>"; };
+		88DE3DBC20CF852900591A56 /* SpaceSpellGameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceSpellGameOver.sks; sourceTree = "<group>"; };
+		88DE3DBE20CF857100591A56 /* SpaceGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceGame.sks; sourceTree = "<group>"; };
+		88DE3DC020CF866900591A56 /* SpaceSpellLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceSpellLevel.sks; sourceTree = "<group>"; };
 		88EA13AB20CB5E83004784F1 /* SpaceSpellScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceSpellScene.swift; sourceTree = "<group>"; };
 		88EA140620CB6216004784F1 /* SpaceSpell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceSpell.swift; sourceTree = "<group>"; };
 		88EA143D20CB6724004784F1 /* SpaceSpellLevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceSpellLevelScene.swift; sourceTree = "<group>"; };
-		88EA144720CB8675004784F1 /* SpaceSpellLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceSpellLevel.sks; sourceTree = "<group>"; };
-		88EA144920CB8B2B004784F1 /* SpaceGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceGame.sks; sourceTree = "<group>"; };
 		88EA144D20CB92C1004784F1 /* SpaceSpellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceSpellController.swift; sourceTree = "<group>"; };
 		88EA144F20CBB9FB004784F1 /* MathGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameController.swift; sourceTree = "<group>"; };
 		88EA145120CBBA3A004784F1 /* SpaceSpellGameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceSpellGameOverScene.swift; sourceTree = "<group>"; };
-		88EA145320CBBAE1004784F1 /* SpaceSpellGameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceSpellGameOver.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,14 +111,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		882133D720C600500090F2CE /* SpaceSpellGameController */ = {
-			isa = PBXGroup;
-			children = (
-				882133D820C6008A0090F2CE /* SSGameL1ViewController.swift */,
-			);
-			path = SpaceSpellGameController;
-			sourceTree = "<group>";
-		};
 		888622C420B10A530058A591 = {
 			isa = PBXGroup;
 			children = (
@@ -140,13 +130,12 @@
 		888622CF20B10A530058A591 /* project3 */ = {
 			isa = PBXGroup;
 			children = (
+				88DE3DAF20CF846300591A56 /* Scene */,
 				88DE3D6E20CF818D00591A56 /* AnimalCard */,
 				88EA13AA20CB5E64004784F1 /* SpaceSpell */,
-				882133D720C600500090F2CE /* SpaceSpellGameController */,
 				882133D220C5FFDA0090F2CE /* Model */,
 				8817401F20BBC0A000C55FC4 /* MainGameSceneController */,
 				8817401D20BBC08700C55FC4 /* MathGameSceneController */,
-				888622EB20B10F8A0058A591 /* Scene */,
 				888622D020B10A530058A591 /* AppDelegate.swift */,
 				888622D420B10A530058A591 /* Actions.sks */,
 				888622D820B10A530058A591 /* GameViewController.swift */,
@@ -159,26 +148,26 @@
 			path = project3;
 			sourceTree = "<group>";
 		};
-		888622EB20B10F8A0058A591 /* Scene */ = {
-			isa = PBXGroup;
-			children = (
-				88EA145320CBBAE1004784F1 /* SpaceSpellGameOver.sks */,
-				88EA144920CB8B2B004784F1 /* SpaceGame.sks */,
-				88EA144720CB8675004784F1 /* SpaceSpellLevel.sks */,
-				888622F220B162960058A591 /* MathGame.sks */,
-				888622F420B162AF0058A591 /* MainGame.sks */,
-				888622F620B162D90058A591 /* MathLevel.sks */,
-				8817402520BBC3C700C55FC4 /* LaunchGame.sks */,
-				88B8B0F320C2601D00962654 /* MathGameOver.sks */,
-			);
-			path = Scene;
-			sourceTree = "<group>";
-		};
 		88DE3D6E20CF818D00591A56 /* AnimalCard */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = AnimalCard;
+			sourceTree = "<group>";
+		};
+		88DE3DAF20CF846300591A56 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				88DE3DB020CF846300591A56 /* LaunchGame.sks */,
+				88DE3DB120CF846300591A56 /* MainGame.sks */,
+				88DE3DB220CF846300591A56 /* MathGame.sks */,
+				88DE3DB320CF846300591A56 /* MathGameOver.sks */,
+				88DE3DB420CF846300591A56 /* MathLevel.sks */,
+				88DE3DBC20CF852900591A56 /* SpaceSpellGameOver.sks */,
+				88DE3DBE20CF857100591A56 /* SpaceGame.sks */,
+				88DE3DC020CF866900591A56 /* SpaceSpellLevel.sks */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 		88EA13AA20CB5E64004784F1 /* SpaceSpell */ = {
@@ -251,19 +240,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88DE3DB820CF846300591A56 /* MathGameOver.sks in Resources */,
+				88DE3DB620CF846300591A56 /* MainGame.sks in Resources */,
+				88DE3DBD20CF852900591A56 /* SpaceSpellGameOver.sks in Resources */,
 				888622DC20B10A530058A591 /* Main.storyboard in Resources */,
 				888622DE20B10A550058A591 /* Assets.xcassets in Resources */,
-				88EA144820CB8675004784F1 /* SpaceSpellLevel.sks in Resources */,
-				8817402620BBC3C700C55FC4 /* LaunchGame.sks in Resources */,
-				888622F320B162960058A591 /* MathGame.sks in Resources */,
+				88DE3DB520CF846300591A56 /* LaunchGame.sks in Resources */,
+				88DE3DBF20CF857100591A56 /* SpaceGame.sks in Resources */,
 				881DF04D20C2D57D00EA8A68 /* Asparagus Sprouts.ttf in Resources */,
-				88EA145420CBBAE1004784F1 /* SpaceSpellGameOver.sks in Resources */,
-				88EA144A20CB8B2B004784F1 /* SpaceGame.sks in Resources */,
-				88B8B0F420C2601D00962654 /* MathGameOver.sks in Resources */,
 				888622E120B10A550058A591 /* LaunchScreen.storyboard in Resources */,
-				888622F720B162D90058A591 /* MathLevel.sks in Resources */,
 				888622D520B10A530058A591 /* Actions.sks in Resources */,
-				888622F520B162AF0058A591 /* MainGame.sks in Resources */,
+				88DE3DB920CF846300591A56 /* MathLevel.sks in Resources */,
+				88DE3DB720CF846300591A56 /* MathGame.sks in Resources */,
+				88DE3DC120CF866900591A56 /* SpaceSpellLevel.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8817402A20BBD01700C55FC4 /* MathGameScene.swift in Sources */,
-				882133D920C6008A0090F2CE /* SSGameL1ViewController.swift in Sources */,
 				882133D620C600250090F2CE /* Asset.swift in Sources */,
 				888622D920B10A530058A591 /* GameViewController.swift in Sources */,
 				88EA140720CB6216004784F1 /* SpaceSpell.swift in Sources */,
