@@ -140,6 +140,7 @@
 		888622CF20B10A530058A591 /* project3 */ = {
 			isa = PBXGroup;
 			children = (
+				88DE3D6D20CF808D00591A56 /* AnimalCard */,
 				88EA13AA20CB5E64004784F1 /* SpaceSpell */,
 				882133D720C600500090F2CE /* SpaceSpellGameController */,
 				882133D220C5FFDA0090F2CE /* Model */,
@@ -171,6 +172,13 @@
 				88B8B0F320C2601D00962654 /* MathGameOver.sks */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		88DE3D6D20CF808D00591A56 /* AnimalCard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AnimalCard;
 			sourceTree = "<group>";
 		};
 		88EA13AA20CB5E64004784F1 /* SpaceSpell */ = {
