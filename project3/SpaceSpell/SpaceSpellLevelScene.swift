@@ -14,9 +14,12 @@ class SpaceSpellLevelScene: SKScene {
     
     private var presentTimer = Timer()
     private var nextSceneTime: Int = 2
+    private var level = Level()
+    
     
     override func didMove(to view: SKView) {
         initializeGame()
+        level.getUserDefault()
     }
     
     private func initializeGame() {

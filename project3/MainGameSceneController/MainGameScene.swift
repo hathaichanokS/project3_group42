@@ -16,10 +16,10 @@ class MainGameScene: SKScene {
     private var mathPopBtn = SKSpriteNode()
     private var animalCardBtn = SKSpriteNode()
     private var spaceSpellBtn = SKSpriteNode()
-    
+    private var level = Level()
     
     override func didMove(to view: SKView) {
-        
+        level.getUserDefault()
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

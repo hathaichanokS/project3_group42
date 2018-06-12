@@ -29,6 +29,10 @@ class SpaceSpellScene: SKScene {
     private var wordNodes = [SKSpriteNode]()
     private var answerNodes = [SKSpriteNode]()
     private var correctAns:String = " "
+    
+    private var level = Level()
+    
+    
     override func didMove(to view: SKView) {
        initializeGame()
        loadLabel()
@@ -46,7 +50,7 @@ class SpaceSpellScene: SKScene {
     }
     
     @objc private func loadWords() {
-        let words = SpaceSpell(level: 1)
+        let words = SpaceSpell(level: level.getSpaceSpellLevel())
         correctAns = String(words.correctAnswer)
         wordNodes = spaceGame.createQuestionNode(scene: self.scene!, question : words.QuestionChars) as! [SKSpriteNode]
         for i in 0..<wordNodes.count{
@@ -80,7 +84,7 @@ class SpaceSpellScene: SKScene {
                 
             }
         }//end loop
-       
+    
     }
     
     

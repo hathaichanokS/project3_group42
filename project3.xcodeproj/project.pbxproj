@@ -35,6 +35,7 @@
 		88DE3DBD20CF852900591A56 /* SpaceSpellGameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DE3DBC20CF852900591A56 /* SpaceSpellGameOver.sks */; };
 		88DE3DBF20CF857100591A56 /* SpaceGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DE3DBE20CF857100591A56 /* SpaceGame.sks */; };
 		88DE3DC120CF866900591A56 /* SpaceSpellLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88DE3DC020CF866900591A56 /* SpaceSpellLevel.sks */; };
+		88DE3DC320CFE68100591A56 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DE3DC220CFE68100591A56 /* Level.swift */; };
 		88EA13AC20CB5E83004784F1 /* SpaceSpellScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA13AB20CB5E83004784F1 /* SpaceSpellScene.swift */; };
 		88EA140720CB6216004784F1 /* SpaceSpell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA140620CB6216004784F1 /* SpaceSpell.swift */; };
 		88EA143E20CB6724004784F1 /* SpaceSpellLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA143D20CB6724004784F1 /* SpaceSpellLevelScene.swift */; };
@@ -74,6 +75,7 @@
 		88DE3DBC20CF852900591A56 /* SpaceSpellGameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceSpellGameOver.sks; sourceTree = "<group>"; };
 		88DE3DBE20CF857100591A56 /* SpaceGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceGame.sks; sourceTree = "<group>"; };
 		88DE3DC020CF866900591A56 /* SpaceSpellLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SpaceSpellLevel.sks; sourceTree = "<group>"; };
+		88DE3DC220CFE68100591A56 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		88EA13AB20CB5E83004784F1 /* SpaceSpellScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceSpellScene.swift; sourceTree = "<group>"; };
 		88EA140620CB6216004784F1 /* SpaceSpell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceSpell.swift; sourceTree = "<group>"; };
 		88EA143D20CB6724004784F1 /* SpaceSpellLevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceSpellLevelScene.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				88EA140620CB6216004784F1 /* SpaceSpell.swift */,
 				882133D320C600140090F2CE /* MathEquation.swift */,
 				882133D520C600250090F2CE /* Asset.swift */,
+				88DE3DC220CFE68100591A56 /* Level.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				19F7CFE320CFCCA900D41E7E /* AnimalCardsGameScene.swift in Sources */,
 				888622D120B10A530058A591 /* AppDelegate.swift in Sources */,
 				882133D420C600140090F2CE /* MathEquation.swift in Sources */,
+				88DE3DC320CFE68100591A56 /* Level.swift in Sources */,
 				8817402C20BBD05600C55FC4 /* MathLevelScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
