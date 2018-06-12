@@ -140,7 +140,6 @@
 		888622CF20B10A530058A591 /* project3 */ = {
 			isa = PBXGroup;
 			children = (
-				88DE3D6D20CF808D00591A56 /* AnimalCard */,
 				88EA13AA20CB5E64004784F1 /* SpaceSpell */,
 				882133D720C600500090F2CE /* SpaceSpellGameController */,
 				882133D220C5FFDA0090F2CE /* Model */,
@@ -172,13 +171,6 @@
 				88B8B0F320C2601D00962654 /* MathGameOver.sks */,
 			);
 			path = Scene;
-			sourceTree = "<group>";
-		};
-		88DE3D6D20CF808D00591A56 /* AnimalCard */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AnimalCard;
 			sourceTree = "<group>";
 		};
 		88EA13AA20CB5E64004784F1 /* SpaceSpell */ = {
@@ -366,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -420,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
