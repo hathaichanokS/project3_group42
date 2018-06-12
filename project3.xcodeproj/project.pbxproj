@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19F7CFDF20CFCC1B00D41E7E /* AnimalCardsLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19F7CFDD20CFCC1B00D41E7E /* AnimalCardsLevel.sks */; };
+		19F7CFE020CFCC1B00D41E7E /* AnimalCardsGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19F7CFDE20CFCC1B00D41E7E /* AnimalCardsGame.sks */; };
+		19F7CFE320CFCCA900D41E7E /* AnimalCardsGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F7CFE120CFCCA900D41E7E /* AnimalCardsGameScene.swift */; };
+		19F7CFE420CFCCA900D41E7E /* AnimalCardsLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F7CFE220CFCCA900D41E7E /* AnimalCardsLevelScene.swift */; };
+		19F7CFE620CFD0D500D41E7E /* AnimalCardsGameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19F7CFE520CFD0D500D41E7E /* AnimalCardsGameOver.sks */; };
+		19F7CFE820CFDB9400D41E7E /* AnimalCardGameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F7CFE720CFDB9400D41E7E /* AnimalCardGameOverScene.swift */; };
 		8817401A20BBC02700C55FC4 /* LaunchGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817401920BBC02700C55FC4 /* LaunchGameScene.swift */; };
 		8817402820BBC5EA00C55FC4 /* MainGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817402720BBC5EA00C55FC4 /* MainGameScene.swift */; };
 		8817402A20BBD01700C55FC4 /* MathGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8817402920BBD01700C55FC4 /* MathGameScene.swift */; };
@@ -38,6 +44,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19F7CFDD20CFCC1B00D41E7E /* AnimalCardsLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AnimalCardsLevel.sks; sourceTree = "<group>"; };
+		19F7CFDE20CFCC1B00D41E7E /* AnimalCardsGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AnimalCardsGame.sks; sourceTree = "<group>"; };
+		19F7CFE120CFCCA900D41E7E /* AnimalCardsGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalCardsGameScene.swift; sourceTree = "<group>"; };
+		19F7CFE220CFCCA900D41E7E /* AnimalCardsLevelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalCardsLevelScene.swift; sourceTree = "<group>"; };
+		19F7CFE520CFD0D500D41E7E /* AnimalCardsGameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AnimalCardsGameOver.sks; sourceTree = "<group>"; };
+		19F7CFE720CFDB9400D41E7E /* AnimalCardGameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCardGameOverScene.swift; sourceTree = "<group>"; };
 		8817401920BBC02700C55FC4 /* LaunchGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchGameScene.swift; sourceTree = "<group>"; };
 		8817402720BBC5EA00C55FC4 /* MainGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameScene.swift; sourceTree = "<group>"; };
 		8817402920BBD01700C55FC4 /* MathGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameScene.swift; sourceTree = "<group>"; };
@@ -151,6 +163,9 @@
 		88DE3D6E20CF818D00591A56 /* AnimalCard */ = {
 			isa = PBXGroup;
 			children = (
+				19F7CFE220CFCCA900D41E7E /* AnimalCardsLevelScene.swift */,
+				19F7CFE120CFCCA900D41E7E /* AnimalCardsGameScene.swift */,
+				19F7CFE720CFDB9400D41E7E /* AnimalCardGameOverScene.swift */,
 			);
 			path = AnimalCard;
 			sourceTree = "<group>";
@@ -158,6 +173,9 @@
 		88DE3DAF20CF846300591A56 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				19F7CFDD20CFCC1B00D41E7E /* AnimalCardsLevel.sks */,
+				19F7CFDE20CFCC1B00D41E7E /* AnimalCardsGame.sks */,
+				19F7CFE520CFD0D500D41E7E /* AnimalCardsGameOver.sks */,
 				88DE3DB020CF846300591A56 /* LaunchGame.sks */,
 				88DE3DB120CF846300591A56 /* MainGame.sks */,
 				88DE3DB220CF846300591A56 /* MathGame.sks */,
@@ -240,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F7CFDF20CFCC1B00D41E7E /* AnimalCardsLevel.sks in Resources */,
 				88DE3DB820CF846300591A56 /* MathGameOver.sks in Resources */,
 				88DE3DB620CF846300591A56 /* MainGame.sks in Resources */,
 				88DE3DBD20CF852900591A56 /* SpaceSpellGameOver.sks in Resources */,
@@ -248,7 +267,9 @@
 				88DE3DB520CF846300591A56 /* LaunchGame.sks in Resources */,
 				88DE3DBF20CF857100591A56 /* SpaceGame.sks in Resources */,
 				881DF04D20C2D57D00EA8A68 /* Asparagus Sprouts.ttf in Resources */,
+				19F7CFE020CFCC1B00D41E7E /* AnimalCardsGame.sks in Resources */,
 				888622E120B10A550058A591 /* LaunchScreen.storyboard in Resources */,
+				19F7CFE620CFD0D500D41E7E /* AnimalCardsGameOver.sks in Resources */,
 				888622D520B10A530058A591 /* Actions.sks in Resources */,
 				88DE3DB920CF846300591A56 /* MathLevel.sks in Resources */,
 				88DE3DB720CF846300591A56 /* MathGame.sks in Resources */,
@@ -268,13 +289,16 @@
 				888622D920B10A530058A591 /* GameViewController.swift in Sources */,
 				88EA140720CB6216004784F1 /* SpaceSpell.swift in Sources */,
 				8817402820BBC5EA00C55FC4 /* MainGameScene.swift in Sources */,
+				19F7CFE420CFCCA900D41E7E /* AnimalCardsLevelScene.swift in Sources */,
 				88EA143E20CB6724004784F1 /* SpaceSpellLevelScene.swift in Sources */,
 				88B8B0F620C2644C00962654 /* MathGameOverScene.swift in Sources */,
 				88EA145220CBBA3A004784F1 /* SpaceSpellGameOverScene.swift in Sources */,
 				88EA13AC20CB5E83004784F1 /* SpaceSpellScene.swift in Sources */,
+				19F7CFE820CFDB9400D41E7E /* AnimalCardGameOverScene.swift in Sources */,
 				8817401A20BBC02700C55FC4 /* LaunchGameScene.swift in Sources */,
 				88EA145020CBB9FB004784F1 /* MathGameController.swift in Sources */,
 				88EA144E20CB92C1004784F1 /* SpaceSpellController.swift in Sources */,
+				19F7CFE320CFCCA900D41E7E /* AnimalCardsGameScene.swift in Sources */,
 				888622D120B10A530058A591 /* AppDelegate.swift in Sources */,
 				882133D420C600140090F2CE /* MathEquation.swift in Sources */,
 				8817402C20BBD05600C55FC4 /* MathLevelScene.swift in Sources */,

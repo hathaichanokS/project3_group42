@@ -32,8 +32,8 @@ class MainGameScene: SKScene {
                 }
             }
             
-            if atPoint(location).name == "mathPop" {
-                if let scene = MathLevelScene(fileNamed: "MathLevel") {
+            if atPoint(location).name == "animalCard" {
+                if let scene = AnimalCardsLevelScene(fileNamed: "AnimalCardsLevel") {
                     scene.scaleMode = .aspectFill
                     view!.presentScene(scene, transition: SKTransition.doorway(withDuration:TimeInterval(0.03)))
                 }
